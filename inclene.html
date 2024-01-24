@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Login Form</title>
+    <style>
+        /* Styles for the form container */
+        form {
+            border-radius: 70px; /* Set border-radius for rounded corners */
+            border: solid 4px rgb(0, 255, 255); /* Set border style and color */
+            border-style: double; /* Use double border style */
+            height: 110px; /* Set height of the form */
+            width: 360px; /* Set width of the form */
+            background-image: linear-gradient(0deg, #fefefe, #5ab1bf, #fefefe); /* Apply gradient background */
+            text-align: center; /* Center-align text within the form */
+        }
+
+        /* Styles for input elements with class "a" */
+        .a {
+            margin: 2px 7px 10px 20px; /* Set margin for input elements */
+            background-color: rgb(243, 243, 123); /* Set background color */
+            border: solid; /* Set border style */
+            border-color: green red; /* Set border color (green top, red bottom) */
+            border-radius: 11px; /* Set border-radius for rounded corners */
+        }
+
+        /* Styles for the second button with class "b" */
+        .b {
+            margin-left: 100px; /* Set left margin for the button */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Login form structure -->
+<form>
+    <b>Authentication</b><br>
+    <!-- Username input -->
+    <label for="nom">Username</label>
+    <input class="a" type="text" id="nom"><br>
+    <!-- Password input -->
+    <label for="password">Password</label>
+    <input class="a" type="password" id="password"><br>
+    <!-- Reset and Submit buttons -->
+    <button class="b" type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
